@@ -23,7 +23,6 @@ body{
     color: #333;
 }
 .otazky{
-
     font-weight: 600;
 }
 .odpovede {
@@ -31,7 +30,6 @@ body{
     margin-right: 8px;
     text-align: center;
     margin-bottom: 20px;
-
 }
 #submit{
     margin-left: auto;  
@@ -47,4 +45,9 @@ body{
 }
 #submit:hover{
     background-color: #3a8;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-size: 60%;
 }
