@@ -32,7 +32,7 @@
     <script src="main.js"></script>
 </head>
 
-<body class="container-fluid" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body class="container" data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
         <a class="navbar-brand" href="index.html"><img src="Logo.png" height="45px" width="45px" alt="Moje Logo"></a>
@@ -45,7 +45,7 @@
                     <a class="nav-link" href="index.html">Domov</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pocitac.hmtl">Základy o počítači</a>
+                    <a class="nav-link" href="pocitac.html">Základy o počítači</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="struktura.html">Štruktúra PC</a>
@@ -66,13 +66,22 @@
         </div>
     </nav>
     <br>
-    <br>
-    <br>
     <section>
-        <div id="quiz"></div>
-        <center><button id="submit">Odoslať</button></center>
-        <div id="results"></div>
+        <h2>Kontakt</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="msg">Správa:</label>
+                <textarea class="form-control" rows="5" id="msg"></textarea>
+            </div>
+            <div id="sprava1"></div>
+            <div id="sprava2"></div>
+            <button type="submit" class="btn btn-dark">Odoslať</button>
 
+        </form>
         <div class="container mt-5">
 
 
@@ -94,7 +103,6 @@
         <div class="col-md-4 bg-dark">
             <h5>Kontakt:</h5>
             <p>E-mail: tomas.filicko@gmail.com</p>
-            <p>Telefónné číslo: 0902 101 119</p>
             <p><a href="kontakt.html">Kontakt</a></p>
         </div>
     </footer>
